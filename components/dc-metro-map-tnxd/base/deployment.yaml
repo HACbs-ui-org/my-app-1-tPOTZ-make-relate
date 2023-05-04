@@ -24,7 +24,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-tnxd
     spec:
       containers:
-      - image: image
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app-1/dc-metro-map-tnxd@sha256:34728b99cae56e5a2459bcfbc974186a4499951710bb2b7e5574b344f2aac8eb
         imagePullPolicy: Always
         name: container-image
         ports:
