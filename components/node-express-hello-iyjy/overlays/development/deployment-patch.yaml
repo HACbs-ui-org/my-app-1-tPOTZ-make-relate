@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-express-hello-iyjy
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app-1/node-express-hello-iyjy@sha256:5653c3f09e90b89288953c2639a71c1142652e9c89455e9b1fde524caf50e98f
+        name: my-nodejs
+        resources: {}
+status: {}
