@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-tnxd
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app-1/dc-metro-map-tnxd@sha256:34728b99cae56e5a2459bcfbc974186a4499951710bb2b7e5574b344f2aac8eb
+        name: container-image
+        resources: {}
+status: {}
