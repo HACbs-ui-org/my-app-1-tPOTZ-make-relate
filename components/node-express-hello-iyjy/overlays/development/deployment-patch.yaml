@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app-1/node-express-hello-iyjy@sha256:5960199af8b7de717274fdad8e4501bb59b5703270dd5a2e64854c7d38a7db0c
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app-1/node-express-hello-iyjy@sha256:5653c3f09e90b89288953c2639a71c1142652e9c89455e9b1fde524caf50e98f
         name: my-nodejs
         resources: {}
 status: {}
